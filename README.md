@@ -13,7 +13,7 @@
 
 # cli-utils
 
-A suite of utilities for webpack project that expose a CLI
+A suite of utilities for webpack project which expose a CLI
 
 ## Requirements
 
