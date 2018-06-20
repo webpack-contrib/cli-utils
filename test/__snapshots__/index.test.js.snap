@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index opts 1`] = `
+Object {
+  "content": Object {
+    "type": "string",
+  },
+  "dev-ware": Object {
+    "type": "object",
+  },
+  "help": Object {},
+  "port": Object {
+    "type": Array [
+      "number",
+      "string",
+    ],
+  },
+  "require": Object {
+    "alias": "r",
+    "type": "string",
+  },
+  "things": Object {
+    "alias": "batman",
+    "type": "array",
+  },
+  "version": Object {},
+}
+`;

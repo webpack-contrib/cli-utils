@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validate validate all 1`] = `
+"Flags were specified with invalid values:
+
+  [34m--dev-ware[39m  must be set to a [1mobject[22m
+
+Please check the command executed."
+`;
+
+exports[`validate validate all 2`] = `
+"Flags were specified that were not recognized:
+
+  [34m--dev-war[39m  Did you mean [1m--dev-ware[22m?
+
+Please check the command executed."
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`help getHelp 1`] = `
+"  --content   The path from which static content will be served
+  --dev-ware  Set options for webpack-dev-middleware. e.g. --dev.publicPath /
+  --help      Show usage information and the options listed here.
+  --port      The port the app should listen on. Default: 8080
+  --require   Preload one or more modules before loading the webpack configuration
+  --things    Where does he get such wonderful toys?
+  --version   Display the webpack-command version
+              and a newline for great justice"
+`;
+
+exports[`help getHelp 2`] = `
+"  --content   [1mDeprecated.[22m Please use true.
+              The path from which static content will be served
+  --dev-ware  Set options for webpack-dev-middleware. e.g. --dev.publicPath /
+  --help      Show usage information and the options listed here.
+  --port      The port the app should listen on. Default: 8080
+  --require   Preload one or more modules before loading the webpack configuration
+  --things    Where does he get such wonderful toys?
+  --version   Display the webpack-command version
+              and a newline for great justice"
+`;
