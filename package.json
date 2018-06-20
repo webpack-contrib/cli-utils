@@ -1,7 +1,10 @@
 {
   "name": "@webpack-contrib/cli-utils",
   "version": "1.0.0",
-  "description": "A suite of utilities for webpack project which expose a CLI",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A suite of utilities for webpack projects which expose a CLI",
   "license": "MIT",
   "repository": "webpack-contrib/cli-utils",
   "author": "Andrew Powell <andrew@shellscape.org>",
