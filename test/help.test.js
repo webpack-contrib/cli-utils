@@ -7,7 +7,7 @@ describe('help', () => {
     expect(getHelp).toBeDefined();
     expect(getHelp(flagSchema)).toMatchSnapshot();
 
-    flagSchema.content.deprecated = true;
+    flagSchema.content.deprecated = '--batman';
     expect(getHelp(flagSchema)).toMatchSnapshot();
   });
 });
