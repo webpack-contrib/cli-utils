@@ -48,6 +48,11 @@ describe('validate', () => {
     result = validate({ argv, flags, prefix });
     expect(result).toBe(true);
 
+    // alias for 'things' should be ignored
+    argv = { batman: ['joker'] };
+    result = validate({ argv, flags, prefix });
+    expect(result).toBe(true);
+
     argv = { devWae: {} };
     result = validate({ argv, flags, prefix, throw: false });
     expect(result).toBe(false);
